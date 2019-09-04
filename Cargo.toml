@@ -1,0 +1,15 @@
+[package]
+name = "csv-tool"
+version = "0.1.0"
+authors = ["Eric Vincent <eric.vincent@jet.com>"]
+edition = "2018"
+license = "MIT"
+description = "using the pest parser libraries"
+publish = false
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+pest = "2.0"
+pest_derive = "2.0"
